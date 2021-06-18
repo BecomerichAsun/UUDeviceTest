@@ -1,0 +1,40 @@
+PODS:
+  - Protobuf (3.17.0)
+  - SnapKit (5.0.1)
+  - SSZipArchive (2.4.2)
+  - SVGAPlayer (2.3.5):
+    - SVGAPlayer/Core (= 2.3.5)
+    - SVGAPlayer/ProtoFiles (= 2.3.5)
+  - SVGAPlayer/Core (2.3.5):
+    - SSZipArchive (>= 1.8.1)
+    - SVGAPlayer/ProtoFiles
+  - SVGAPlayer/ProtoFiles (2.3.5):
+    - Protobuf (~> 3.4)
+  - UUDeviceTest (1.0.0):
+    - SnapKit (~> 5.0.0)
+    - SVGAPlayer (= 2.3.5)
+
+DEPENDENCIES:
+  - UUDeviceTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Protobuf
+    - SnapKit
+    - SSZipArchive
+    - SVGAPlayer
+
+EXTERNAL SOURCES:
+  UUDeviceTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Protobuf: 7327d4444215b5f18e560a97f879ff5503c4581c
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  SVGAPlayer: bae4048710c948dc4de98971e35207d3bbed85ad
+  UUDeviceTest: 40ddb782fa16cb3b3f7faafde7879844511fdccd
+
+PODFILE CHECKSUM: 24e867afaa3eaea2d5f754139028f5d5d247942b
+
+COCOAPODS: 1.10.0

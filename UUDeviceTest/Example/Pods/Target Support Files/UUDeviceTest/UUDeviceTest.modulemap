@@ -1,0 +1,6 @@
+framework module UUDeviceTest {
+  umbrella header "UUDeviceTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
